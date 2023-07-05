@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+nav{
+    position: relative;
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    /* display: none; */
+}
+
+.nav-list > ul > li{
+    color: rgb(7, 7, 65);
+    font-size: 20px;
+}
+
+.nav-list > ul > li:hover{
+    color: #00b7ff;
+}
+.nav-list > ul > li:nth-child(4){
+    
+    text-align: center;
+}
+
+.nav-content > div > button{
+    display: none;
+}
+
+
+.features-img{
+    position: relative;
+
+}
+
+.features-img > img{
+    border: 15px solid rgb(240, 237, 237);
+}
+
+.features-img > div{
+    background-color: #00b7ff;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    
+    z-index: -1;
+
+}
+
+@media(max-width:500px){
+    .features-img{
+        position: relative;
+    }
+    
+    .features-img > img{
+        border: 15px solid rgb(240, 237, 237);
+    }
+    
+    .features-img > div{
+        background-color: #00b7ff;
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        top: 40%;
+        left: 33%;
+        
+        z-index: -1;
+    
+    }
+
+}
+
+.learnMore{
+    background-image: url(pics/parallax-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.products{
+    background-color: #002450;
+}
+
+input{
+    /* border-bottom: 50px; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+}
+
+input:focus{
+    outline: none;
+    /* border-bottom: 2px; */
+    border-bottom: 2px solid black;
+}
+
+/* input:active{
+    border-color: black;
+} */
+
+textarea{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+textarea:focus{
+    border-bottom: 2px solid black;
+}
+@media (max-width:1200px) {
+    .nav-list > ul > li{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:850px) {
+    .nav-list{
+        display: none;
+    }
+    .nav-content > div > button{
+        display: block;
+    }
+
+    
+}
+

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="navbar ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top nvbr">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link ">Disabled</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="parallax1">
+        <div class="container">
+            <h1 class="text-light">TRAVEL</h1>
+        </div>
+    </div>
+
+    <section id="cards">
+        <!-- <div class="container-fluid p-5  bg-light-subtle " id="custom-cards">
+            <h2 class="pb-2 border-bottom text-dark">Custom cards</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col ">
+                    <div class="card  card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-1.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap"
+                                        class="rounded-circle border border-white" width="32" height="32">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <button>Earth</small>
+                                </li>
+button               <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>3d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col crd">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-2.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple
+                                lines</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap"
+                                        class="rounded-circle border border-white" width="32" height="32">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>Pakistan</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>4d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col crd">
+                    <div class="card  card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-3.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap"
+                                        class="rounded-circle border border-white" width="32" height="32">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>California</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>5d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fun"></div>
+        </div> -->
+        <div id="carouselExample" class="carousel slide bg-light-subtle py-5 px-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This card has supporting text below as a natural
+                                                lead-in to additional content.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This card has even longer content
+                                                than the first to show that equal height action.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This card has supporting text below as a natural
+                                                lead-in to additional content.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This card has even longer content
+                                                than the first to show that equal height action.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This card has supporting text below as a natural
+                                                lead-in to additional content.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="height: 40rem;">
+                                    <div class="card h-100">
+                                        <img src="pics/photo-1684363013724-966ee6ea46c6.jpeg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This card has even longer content
+                                                than the first to show that equal height action.</p>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button class="text-body-secondary rounded-5 btn btn-primary text-light">Check Out</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+    <div class="parallax2 text-light">
+        <div class="container">
+            <h2 class="tstm text-light">TESTIMONIALS</h2>
+        </div>
+    </div>
+    <section id="testimonial">
+        <div class="container-fluid bg-light-subtle py-5 px-3 my-5 ">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 mx-5 order-1">
+                    <img src="pics/axp-photography--waqKwEbt9A-unsplash.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-7 text-end px-5 d-flex flex-column align-items-center justify-content-center order-2">
+                    <h2>LOREM IPSUM</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt aperiam cupiditate pariatur velit
+                        doloribus nulla illo numquam suscipit magni dolorum. Provident, exercitationem ab cum nesciunt
+                        sint odio natus quisquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        eius aliquam dolorum fuga pariatur perferendis laudantium, neque obcaecati nam assumenda ab
+                        odio, at eligendi? Magnam tempore ipsa provident vitae architecto. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-light-subtle py-5 px-3 my-5 ">
+            <div class="row">
+                <div class="col-sm-7 text-start px-5 d-flex flex-column align-items-center justify-content-center order-sm-2">
+                    <h2>LOREM IPSUM</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt aperiam cupiditate pariatur velit
+                        doloribus nulla illo numquam suscipit magni dolorum. Provident, exercitationem ab cum nesciunt
+                        sint odio natus quisquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        eius aliquam dolorum fuga pariatur perferendis laudantium, neque obcaecati nam assumenda ab
+                        odio, at eligendi? Magnam tempore ipsa provident vitae architecto. </p>
+                </div>
+                <div class="col-sm-4 mx-5 order-1">
+                    <img src="pics/axp-photography--waqKwEbt9A-unsplash.jpg" alt="" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid bg-light-subtle py-5 px-3 my-5 ">
+            <div class="row">
+                <div class="col-sm-4 mx-5">
+                    <img src="pics/axp-photography--waqKwEbt9A-unsplash.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-7 text-end px-5 d-flex flex-column align-items-center justify-content-center">
+                    <h2>LOREM IPSUM</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt aperiam cupiditate pariatur velit
+                        doloribus nulla illo numquam suscipit magni dolorum. Provident, exercitationem ab cum nesciunt
+                        sint odio natus quisquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        eius aliquam dolorum fuga pariatur perferendis laudantium, neque obcaecati nam assumenda ab
+                        odio, at eligendi? Magnam tempore ipsa provident vitae architecto. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-light-subtle py-5 px-3 mt-5 ">
+            <div class="row">
+                <div class="col-sm-7 text-start px-5 d-flex flex-column align-items-center justify-content-center">
+                    <h2>LOREM IPSUM</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt aperiam cupiditate pariatur velit
+                        doloribus nulla illo numquam suscipit magni dolorum. Provident, exercitationem ab cum nesciunt
+                        sint odio natus quisquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        eius aliquam dolorum fuga pariatur perferendis laudantium, neque obcaecati nam assumenda ab
+                        odio, at eligendi? Magnam tempore ipsa provident vitae architecto. </p>
+                </div>
+                <div class="col-sm-4 mx-5">
+                    <img src="pics/axp-photography--waqKwEbt9A-unsplash.jpg" alt="" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- </section> -->
+    <div class="parallax3 pb-5">
+        <div class="container mb-5">
+            <h2 class="tstm mb-5">CONTACT</h2>
+        </div>
+    </div>
+
+    <section id="contact">
+        <div class="container-fluid py-5">
+
+            <div class="row d-flex justify-content-center my-5">
+                <p class="d-flex fs-3  justify-content-center ">New York</p>
+                <p class="d-flex fs-3 justify-content-center ">Phone:</p>
+                <p class="d-flex fs-3 justify-content-center ">E-mail</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <input class="border border-3 border-dark rounded-3 shadow-lg w-75 my-3 col-sm-12" style="height: 60px;" placeholder="name" type="text">
+                <input class="border border-3 border-dark rounded-3 shadow-lg w-75 my-3 col-sm-12" style="height: 60px;" placeholder="name" type="text">
+                <input class="border border-3 border-dark rounded-3 shadow-lg w-75 my-3 col-sm-12" style="height: 60px;" placeholder="name" type="text">
+                <button class="btn btn-primary text-dark col-sm-4 mt-4 border border-dark fs-5"> SUBMIT</button>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="parallax4"></div>
+
+    <section id="footer">
+        <div class="container-fluid bg-white">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5  border-top">
+                <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <p class="text-body-secondary">© 2023</p>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,445 @@
+:root {
+    --bg-yellow: linear-gradient(90deg, #ffbf34, #ffc64c,#ffc850,#ffcf66,#ecd156,#f8dc5f);
+  }
+
+.bubble > div{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    
+}
+
+
+.yellow-gradient{
+    background-image: var(--bg-yellow);
+}
+
+.first-nav {
+    height: 10vh;
+}
+
+.first-nav > div > button{
+    background-image: var(--bg-yellow);
+    
+}
+.text >  button{
+    background-image: var(--bg-yellow);
+}
+
+
+.first-nav>img {
+    height: 8vh;
+    width: auto;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+}
+
+.floating-img>img {
+    position: absolute;
+    box-shadow: 0 0 30px 2px rgb(177, 177, 177);
+}
+
+@media(max-width:1500px) {
+    .floating-img {
+        display: none;
+    }
+}
+
+.floating-img>img:nth-child(1) {
+    top: 15vh;
+    left: -10%;
+    animation-name: img1;
+    animation-duration: 32s;
+    z-index: 5;
+    animation-timing-function: linear;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes img1 {
+    0% {
+        left: -10%;
+    }
+
+    25% {
+        left: -7%;
+    }
+
+    50% {
+        left: -10%;
+    }
+
+    75% {
+        left: -11%;
+    }
+
+    100% {
+        left: -10%;
+    }
+}
+
+.floating-img>img:nth-child(2) {
+    top: 48vh;
+    left: -12%;
+    animation-name: img2;
+    animation-duration: 20s;
+    z-index: 5;
+    animation-timing-function: linear;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes img2 {
+    0% {
+        top: 48vhvh;
+    }
+
+    25% {
+        top: 45vh;
+    }
+
+    50% {
+        top: 48vh;
+    }
+
+    75% {
+        top: 51vh;
+    }
+
+    100% {
+        top: 48vh;
+    }
+}
+
+.floating-img>img:nth-child(3) {
+    top: 70vh;
+    left: -3%;
+    /* border: 2px solid red; */
+}
+
+.floating-img>img:nth-child(4) {
+    top: 90vh;
+    left: 50%;
+    transform: translate(-50%);
+    animation-name: img4;
+    animation-duration: 35s;
+    z-index: 2;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img4 {
+    0% {
+        left: 50%;
+    }
+
+    25% {
+        left: 55%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    75% {
+        left: 45%;
+    }
+
+    100% {
+        left: 50%;
+    }
+}
+
+.floating-img>img:nth-child(5) {
+    top: 77vh;
+    left: 80%;
+    z-index: 2;
+
+    animation-name: img5;
+    animation-duration: 20s;
+
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img5 {
+    0% {
+        left: 80%;
+    }
+
+    25% {
+        left: 82%;
+    }
+
+    50% {
+        left: 80%;
+    }
+
+    75% {
+        left: 78%;
+    }
+
+    100% {
+        left: 80%;
+    }
+}
+
+.floating-img>img:nth-child(6) {
+    top: 45vh;
+    left: 90%;
+    z-index: 2;
+
+    animation-name: img6;
+    animation-duration: 17s;
+
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img6 {
+    0% {
+        top: 45vh;
+    }
+
+    25% {
+        top: 43vh;
+    }
+
+    50% {
+        top: 45vh;
+    }
+
+    75% {
+        top: 47vh;
+    }
+
+    100% {
+        top: 45vh;
+    }
+}
+
+.floating-img>img:nth-child(7) {
+    top: 20vh;
+    left: 80%;
+    z-index: 2;
+
+    animation-name: img7;
+    animation-duration: 15s;
+
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img7 {
+    0% {
+        left: 80%;
+    }
+
+    25% {
+        left: 82%;
+    }
+
+    50% {
+        left: 80%;
+    }
+
+    75% {
+        left: 78%;
+    }
+
+    100% {
+        left: 80%;
+    }
+}
+
+#second{
+    position: relative;
+    /* top: 20vh; */
+    z-index: 10;
+    background-color: white;
+    padding: 8%;
+    
+}
+
+.second-text > h1{
+   
+    padding: 2% 30%;
+}
+.second-text > p{
+    padding: 0 25%;
+}
+
+.imge-div{
+    height: 60vh;
+    position: relative;
+    
+    
+}
+
+/* .ovrflow-scroll > div > div >img{
+    position: relative;
+    transform: translateY(80);
+    transition: all 5s;
+    
+}
+.ovrflow-scroll > div > div >img:hover{
+    transform: translateY(100);
+    
+} */
+
+.keen-slider > div > img{
+    width: 90%;
+    height: auto;
+  
+    border-radius: 5%;
+    /* box-shadow: 0 0 35px 2px black; */
+    margin-top: 10%;
+}
+.keen-slider > div {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sixth-img > img:nth-child(2){
+    /* position: absolute; */
+    left: 13vw;
+    top: 20vh;
+
+
+animation-name: img6-1;
+    animation-duration: 8s;
+    
+
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img6-1 {
+    0% {
+        top: 20vh;
+    }
+
+    25% {
+        top: 18vh;
+    }
+
+    50% {
+        top: 22vh;
+    }
+
+    75% {
+        top: 18vh;
+    }
+
+    100% {
+        top: 20vh;
+    }
+}
+
+
+.sixth-img > img:nth-child(3){
+    /* position: absolute; */
+    left: 3vw;
+    top: -15vh;
+    z-index: 1;
+    filter: opacity(0.5);
+    animation-name: img6-2;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img6-2 {
+    0% {
+        left: 3vh;
+    }
+
+    25% {
+        left: 1.5vh;
+    }
+
+    50% {
+        left: 3vh;
+    }
+
+    75% {
+        left: 5vh;
+    }
+
+    100% {
+        left: 3vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.splide {
+  padding: 20px 0;
+}
+
+.splide__slide img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 400ms;
+  transform: scale(0.9);
+  transform-origin: center center;
+}
+
+.splide__slide.is-active img {
+  transform: scale(1);
+}
+
+.splide .splide__arrow {
+  top: 0;
+  bottom: 0;
+  height: 00%;
+  transform: none;
+  border-radius: unset;
+  width: 50px;
+  opacity: 0.9;
+}
+.splide .splide__arrow svg {
+  filter: invert(1);
+  width: 24px;
+  height: 24px;
+}
+
+.splide__arrow.splide__arrow--prev {
+  left: 0;
+  /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%); */
+  background: black;
+}
+
+.splide__arrow.splide__arrow--next {
+    /* border: 2px solid red; */
+  right: 0;
+  /* background: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%); */
+  background: black;
+}
+
+
+
+
+
+.left {
+  text-align: left;
+}

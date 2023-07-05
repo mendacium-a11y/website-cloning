@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Foundation</title>
+  <link rel="icon" href="pics/bootstrap.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/flip-card.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light text-dark" aria-label="Offcanvas navbar large">
+      <div class="container-fluid navbar-text-main">
+        <a class="navbar-brand text-dark" href="#"><img class="" src="pics/bootstrap.png" alt="">Bootstrap
+          Foundation</a>
+        <button class="navbar-toggler" data-bs-theme="light" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-warning "></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end  nav-content-list text-bg-light" tabindex="-1" id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasNavbar2Label"></h5> -->
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body navbar-content">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link text-dark text-start" aria-current="page" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">CONTACT</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section id="banner">
+    <div class="container-fluid banner-bg px-5">
+      <h1 class="text-center text-overlay">BOOTSTRAP INCUBATION AND ADVISORY FOUNDATION</h1>
+      <h6 class="text-overlay">Uniting and Empowering the Startup Ecosystem</h6>
+    </div>
+    <!-- <div class="container"> -->
+    <div class="yellow-circle ">
+      <img src="pics/circle.png" alt="Bootstrap Logo Icon">
+
+
+      <!-- </div> -->
+    </div>
+    <div class="container-fluid bg-light-subtle my-5 about-section">
+      <div class="row justify-content-center">
+        <div class="about-text col-sm-12 col-md-4 about-text">
+          <h1 class="mx-4">THE STARTUP ECOSYSTEM, BROUGHT TOGETHER</h1>
+          <p class="fw-lighter">
+
+            Bootstrap Incubation and Advisory Foundation exists with the core purpose of enabling a sense of community –
+            to bring together early-stage startup founders, investors, business enthusiasts, industry experts and other
+            stakeholders of the startup ecosystem, under one roof.</p>
+
+          <p class="fw-lighter">We believe in the power of collaboration;
+            our aim is to mitigate the barriers that exist between the stakeholders of the startup space and build a
+            powerful startup infrastructure in India.
+          </p>
+        </div>
+        <div class="about-img col-sm-12 col-md-6">
+          <img src="pics/startup-ecosystem.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="products">
+    <div class="container-fluid bg-dark products-container">
+      <div class="row">
+        <h1 class="text-light text-center products-heading">WE'RE HERE FOR:</h1>
+      </div>
+      <div class="container products-accordian mb-5">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item bg-dark  justify-content-between">
+            <h2 class="accordion-header d-flex text-light  fw-6">
+              <button class="accordion-button butn bg-dark text-light collapsed " type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                aria-controls="flush-collapseOne">
+                <h2 class="text-light text-light accordian-text">Item 1</h2>
+                <i class="fa-solid fa-arrow-up fa-2xl icon" style="color: #ffffff;"></i>
+              </button>
+
+            </h2>
+
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-light">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum ex numquam in deleniti.
+                  Perspiciatis placeat beatae autem asperiores esse vel aliquam, non suscipit est sapiente consequatur
+                  et praesentium deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error tempora modi
+                  id, placeat quis in pariatur accusamus suscipit blanditiis perferendis facere dignissimos consequatur
+                  nihil fuga, inventore voluptates amet sed sapiente?</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header text-light">
+              <button class="accordion-button butn bg-dark collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h2 class="text-light">Item 1</h2><i class="fa-solid fa-arrow-up fa-2xl icon"
+                  style="color: #ffffff;"></i>
+              </button>
+
+            </h2>
+            <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-light">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum ex numquam in deleniti.
+                  Perspiciatis placeat beatae autem asperiores esse vel aliquam, non suscipit est sapiente consequatur
+                  et praesentium deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error tempora modi
+                  id, placeat quis in pariatur accusamus suscipit blanditiis perferendis facere dignissimos consequatur
+                  nihil fuga, inventore voluptates amet sed sapiente?</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header text-light">
+              <button class="accordion-button butn bg-dark collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h2 class="text-light">Item 1</h2><i class="fa-solid fa-arrow-up fa-2xl icon"
+                  style="color: #ffffff;"></i>
+              </button>
+            </h2>
+            <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-light">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum ex numquam in deleniti.
+                  Perspiciatis placeat beatae autem asperiores esse vel aliquam, non suscipit est sapiente consequatur
+                  et praesentium deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error tempora modi
+                  id, placeat quis in pariatur accusamus suscipit blanditiis perferendis facere dignissimos consequatur
+                  nihil fuga, inventore voluptates amet sed sapiente?</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark border-bottom">
+            <h2 class="accordion-header text-light">
+              <button class="accordion-button butn bg-dark collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h2 class="text-light">Item 1</h2><i class="fa-solid fa-arrow-up fa-2xl icon"
+                  style="color: #ffffff;"></i>
+              </button>
+            </h2>
+            <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-light">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum ex numquam in deleniti.
+                  Perspiciatis placeat beatae autem asperiores esse vel aliquam, non suscipit est sapiente consequatur
+                  et praesentium deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error tempora modi
+                  id, placeat quis in pariatur accusamus suscipit blanditiis perferendis facere dignissimos consequatur
+                  nihil fuga, inventore voluptates amet sed sapiente?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="flipcard">
+    <div class="container-fluid flip-main-container">
+      <div class="row text-center flip-heading">
+        <h1 class="flip-heading-h1">WHY BOOTSTRAP
+        </h1>
+        <h1 class="flip-heading-h1">IS THE PLACE TO BE</h1>
+        <p class="flip-heading-p">The power of many together always results in benefits, multiplied.
+          Here are just a few ways we’re enabling this community to help you:</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="flip-card col-sm-12 col-md-3 m-3">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2 class="">PREMIER STARTUP EVENTS</h2>
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card col-sm-12 col-md-3 m-3">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2 class="">PREMIER STARTUP EVENTS</h2>
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card col-sm-12 col-md-3 m-3">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2 class="">PREMIER STARTUP EVENTS</h2>
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card col-sm-12 col-md-3 m-3">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2 class="">PREMIER STARTUP EVENTS</h2>
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contactform">
+    <div class="comtainer text-center py-5 my-5 pb-5 ">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfLCxkPY-p0pm_zMZV8-7oPOrrYj_uXr_OOdrzD1VzGA-fthQ/viewform?embedded=true"
+        width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  </section>
+  <section id="contact " class="bg-dark">
+    <div class="container-fluid bg-dark contact-main">
+      <div class="row contact-row justify-content-center">
+        <div class="contact-text col-sm-12 col-md-6">
+          <h1>
+            NOT JUST DREAMERS, WE’RE DOERS!
+          </h1>
+          <h5>
+            When you join Bootstrap Incubation and Advisory Foundation, you'll be joining a group of passionate
+            individuals who are committed to constantly improving, and learning more.
+          </h5>
+          <h3>
+            Here are just a few of the people you'll meet in our community:
+          </h3>
+        </div>
+        <div class="contact-img col-sm-12 col-md-6">
+          <div class="contact-img-div bg-light img1"><img src="pics/industry-experts.png" alt=""
+              class="img-fluid bg-light img1 m-2">
+            <h2>
+              SUCCESSFUL STARTUP FOUNDERS
+            </h2>
+          </div>
+          <div class="contact-img-div bg-light img2"><img src="pics/successful-startuip-founders.png" alt=""
+              class="img-fluid bg-light img2">
+            <h2>
+              SUCCESSFUL STARTUP FOUNDERS
+            </h2>
+          </div>
+          <div class="contact-img-div bg-light img3"><img src="pics/successful-startuip-founders.png" alt=""
+              class="img-fluid bg-light img3">
+            <h2>
+              SUCCESSFUL STARTUP FOUNDERS
+            </h2>
+          </div>
+          <div class="contact-img-div bg-light img4"><img src="pics/successful-startuip-founders.png" alt=""
+              class="img-fluid bg-light img4">
+            <h2>
+              SUCCESSFUL STARTUP FOUNDERS
+            </h2>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+    <div class="contact-info container-fluid bg-dark">
+      <h2>
+        info@bootstrapfoundation.org
+      </h2>
+      <div class="conatct-icons">
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+          viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #ffffff
+            }
+          </style>
+          <path
+            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+          viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #ffffff
+            }
+          </style>
+          <path
+            d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+          viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #ffffff
+            }
+          </style>
+          <path
+            d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+          viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #ffffff
+            }
+          </style>
+          <path
+            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://kit.fontawesome.com/d5ff7accf5.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

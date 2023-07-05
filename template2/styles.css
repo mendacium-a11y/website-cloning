@@ -1,0 +1,128 @@
+body,
+html {
+    /* The image used */
+    /* background-image: url('../photo-1465199308303-08e6bc3fa443.jpeg'); */
+    /* filter: grayscale(90%); */
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    color: whitesmoke;
+}
+
+.nvbr {
+    /* Other styles */
+    transition: transform 0.3s ease-out; /* Adjust the duration as needed */
+  }
+
+
+.hidden{
+    display: none;
+}
+
+.parallax1 {
+    background-image: url('pics/ryan-kim-b4lRczPeBMA-unsplash.jpg');
+    /* filter: grayscale(0%); */
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 140%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax2, body {
+    background-image: url('pics/axp-photography-nwmyGkyUDnc-unsplash.jpg');
+    /* filter: grayscale(100%); */
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 75%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax3 {
+    background-image: url('pics/axp-photography-PYytdWOx51A-unsplash.jpg');
+    filter: grayscale(50%);
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax4 {
+    background-image: url('pics/ivan-rohovchenko-ZrJFadoE2U0-unsplash.jpg');
+    filter: grayscale(50%);
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#contact{
+    background-color: rgb(137, 137, 138);
+}
+
+
+
+h1{
+    position: relative;
+    font-size: 8rem;
+    /* font-weight: ; */
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+}
+.tstm{
+    position: relative;
+    font-size: 5rem;
+    /* font-weight: ; */
+    color: rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+}
+
+#testimonial p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#testimonial h2{
+    font-size: 2.2em;
+    font-weight: bold;
+}

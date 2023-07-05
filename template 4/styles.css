@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax-window {
+    min-height: 80vh;
+    background: transparent;
+}
+
+.one,
+.two,
+.three {
+    border: 3px solid linear-gradient(120deg, #f37055, #ef4e7b,
+     #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #6fba82,
+      #07b39b, #1098ad, #5073b8, #a166ab, #ef4e7b, #f37055) 0 0 / 600% 100%;
+    
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+    background-color: white;
+    color: black;
+}
+
+#fifth {
+    background: white url('pics/fifth.jpg') no-repeat scroll center;
+
+}
